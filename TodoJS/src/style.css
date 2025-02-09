@@ -40,11 +40,27 @@ body {
   color: rgb(3, 226, 3);
 }
 
-
 .search-bar {
   outline: none;
   border-color: #fff;
   border-radius: 20px;
   padding: 10px;
   border: none;
+  width: 30%;
+}
+
+.cta-button {
+  background-color: #fff;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: gray;
+  font-size: 12px;
+  transition: transform 0.1s ease-in-out;
+}
+
+.cta-button:active {
+  transform: scale(0.95); 
 }
